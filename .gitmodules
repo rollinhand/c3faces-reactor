@@ -1,0 +1,6 @@
+[submodule "c3faces"]
+	path = c3faces
+	url = https://github.com/rollinhand/c3faces.git
+[submodule "c3faces-showcase"]
+	path = c3faces-showcase
+	url = https://github.com/rollinhand/c3faces-showcase.git
