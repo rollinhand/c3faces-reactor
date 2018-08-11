@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.kivio</groupId>
+    <artifactId>c3faces-reactor</artifactId>
+    <version>1.3</version>
+    <packaging>pom</packaging>
+    <name>C3Faces Reactor</name>
+    <description>JSF 2 component library for c3.js</description>
+    <url>https://github.com/rollinhand/${project.artifactId}</url>
+    <inceptionYear>2018</inceptionYear>
+
+    <modules>
+        <module>c3faces</module>
+        <module>c3faces-showcase</module>
+    </modules>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>martinlinha</id>
+            <name>Martin Linha</name>
+        </developer>
+
+        <developer>
+            <id>rollinhand</id>
+            <name>Björn Berg</name>
+            <email>rollin.hand@gmx.de</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:rollinhand/c3faces-reactor.git</connection>
+        <developerConnection>scm:git:git@github.com:rollinhand/c3faces-reactor.git</developerConnection>
+        <url>git@github.com:rollinhand/c3faces-reactor.git</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub Issue Management</system>
+        <url>https://github.com/rollinhand/${project.artifactId}/issues</url>
+    </issueManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>versions-maven-plugin</artifactId>
+                <version>2.5</version>
+            </plugin>
+        </plugins>
+    </build>
+</project>
