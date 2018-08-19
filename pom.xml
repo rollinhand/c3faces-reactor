@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.kivio</groupId>
     <artifactId>c3faces-reactor</artifactId>
-    <version>1.3</version>
+    <version>1.4</version>
     <packaging>pom</packaging>
     <name>C3Faces Reactor</name>
     <description>JSF 2 component library for c3.js</description>
